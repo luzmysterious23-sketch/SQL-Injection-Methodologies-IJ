@@ -1,7 +1,7 @@
 # SQL Injection Methodologies
 
 **Author:** Isabelle Jean  
-**Status:** In progress  
+**Status:** All three tasks documented; supporting result screenshots pending  
 **Focus:** Web application security and SQL injection
 
 ## Project Overview
@@ -20,14 +20,16 @@ Develop hands-on skills in identifying and exploiting SQL injection within the p
 | SQL injection | Conduct the SQL injection exploit described in the lab |
 | Password-hash analysis | Crack captured lab password hashes using John the Ripper |
 
-Detailed task documentation, labeled screenshots, observations, and results will be added as the exercise progresses. These stages summarize the supplied learning objectives; they do not indicate completed results.
+[Read the full Exercise 1 portfolio write-up](exercises/exercise-01-database-attacks.md), covering all three tasks, corrected commands, evidence captions, and security lessons.
+
+The supplied XAMPP screenshot confirms service startup. Later outcomes are documented from the lab instructions; additional execution screenshots are pending.
 
 ## Tools and Environment
 
 - **DVWA:** The intentionally vulnerable web application used for the exercise.
 - **John the Ripper:** The password-cracking tool specified for analyzing captured lab hashes.
 
-Device details and any additional tools will be documented when the task instructions are provided.
+The lab uses PLABDC01 (Windows Server 2019 domain controller), PLABDM01 (Windows Server 2019 application host), and PLABKALI (Kali Linux workstation). XAMPP provides the web and database services.
 
 ## Exam Alignment
 
